@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background:  linear-gradient(to right, #9c4291, #3f8880);
+	height: 100vh;
+	
+}
+
+
+.card {
+	background-color: #242628;
+	width: 300px;
+	height: 400px;
+	margin: 110px auto;
+	border-radius: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.img {
+	height: 120px;
+	width: 120px;
+	margin:20px auto;
+	border: 4px solid #fc9e5b;
+	border-radius: 50%;
+}
+
+.img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+}
+
+
+
+.name {
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 140%;
+}
+
+.job {
+	color: #fc9e5b;
+	text-align: center;
+	font-size: 110%;
+	margin-top: 10px;
+}
+
+.icon {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 25px;
+}
+
+.icon i {
+	color: white;
+	font-size: 150%;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.icon i:hover {
+	color: #fc9e5b;
+}
+
+.contact span {
+	color: white;
+	border-radius: 10px;
+	border: 1px solid #fc9e5b ;
+	padding: 10px 20px;
+	font-size: 90%;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.contact {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.contact span:hover {
+	background-color: #fc9e5b;
+	color: white;
+}
+
+.img, .img img {
+	transition: all 0.5s;
+}
+
+.img:hover {	
+	height: 100%;
+	width: 100%;
+	border: none;
+	transform: translateY(-20px);
+
+	
+}
+
+.img:hover img {
+	border-radius: unset;
+}
